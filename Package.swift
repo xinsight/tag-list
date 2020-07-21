@@ -22,8 +22,8 @@ let package = Package(
             name: "tag-list",
             dependencies: [],
             path: "Source"),
-        .testTarget(
-            name: "tag-listTests",
-            dependencies: ["tag-list"]),
+        //.testTarget(
+         //   name: "tag-listTests",
+          //  dependencies: ["tag-list"]),
     ]
 )
