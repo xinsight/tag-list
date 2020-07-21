@@ -11,7 +11,6 @@ let package = Package(
             name: "tag-list",
             targets: ["tag-list"]),
     ],
-    path: "Source",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
@@ -22,6 +21,7 @@ let package = Package(
         .target(
             name: "tag-list",
             dependencies: []),
+            path: "Source",
         .testTarget(
             name: "tag-listTests",
             dependencies: ["tag-list"]),
